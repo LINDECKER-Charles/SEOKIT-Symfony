@@ -66,6 +66,8 @@
         <meta name="robots" content="{% block meta_robots %}index, follow{% endblock %}">
         {# Défini la couleur de fond de certain navigateur moderne #}
         <meta name="theme-color" content="{% block theme_color %}#162033{% endblock %}">
+        {# Empêche les duplicata d'URL #}
+        <link rel="canonical" href="{% block canonical %}{{ app.request.uri }}{% endblock %}">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 </html>
