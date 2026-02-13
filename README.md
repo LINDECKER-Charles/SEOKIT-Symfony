@@ -1,4 +1,4 @@
-# Symfony SEO Kit
+# Symfony SEO Kit 
 
 This repository contains a lightweight SEO starter kit for Symfony, focusing on Twig templates and best practices for meta tags, Open Graph, and Twitter Cards.
 
