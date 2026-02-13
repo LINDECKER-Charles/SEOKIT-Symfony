@@ -6,8 +6,6 @@
         {% set default_title = "Default Title" %} {# Titre par défaut à définir par sécurité #}
         {% set default_description = "Default Description" %} {# Description par défaut à définir par sécurité #}
 
-
-
         {# Mise en place des titre #}
         <title>{% block title %}{{ default_title }}{% endblock %}</title>
         <meta property="og:title" content="{% block og_title %}{{ block('title')|default(default_title) }}{% endblock %}">
